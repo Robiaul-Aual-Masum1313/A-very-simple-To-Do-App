@@ -1,0 +1,46 @@
+.main_container {
+    width: 700px;
+    margin: 0 auto;
+    background: #eee;
+    border-radius: 20px;
+    padding: 50px 60px;
+}
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+.input_area {
+    text-align: center;
+}
+.input_area > * {
+    margin: 0 3px;
+}
+.task_container {
+    display: flex;
+}
+.task_container > * {
+    flex: 50%;
+}
+.task_container > * {
+    flex: 50%;
+    background: #ddd;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+ul {
+    list-style-type: none;
+}
+.task_container span {
+    font-size: 20px;
+    margin: 0 15px;
+}
+.task_container li {
+    margin-bottom: 5px;
+}
+.completed_task_area input[type="button"] {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
